@@ -12,7 +12,7 @@ class ClassCounter extends Component {
 
     increamentCount = () => {
         this.setState({
-            count : this.state.count +5
+            count : this.state.count + 5
         })
 
     }
