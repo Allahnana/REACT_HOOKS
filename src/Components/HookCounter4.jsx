@@ -12,6 +12,8 @@ function HookCounter4() {
 
         <button onClick={addItem}>Add a Number</button>
 
+        <h1>Doings</h1>
+
         <ul>
             {
                 items.map(item =>(<li key={item.id}>{item.value}</li>))
