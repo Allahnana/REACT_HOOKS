@@ -5,6 +5,7 @@ import HookCounter from './Components/HookCounter'
 import HookCounter2 from './Components/HookCounter2'
 import HookCounter3 from './Components/HookCounter3'
 import HookCounter4 from './Components/HookCounter4'
+import HookCounterOne from './Components/HookCounterOne'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,7 +20,9 @@ function App() {
 
         {/* <HookCounter3/> */}
 
-        <HookCounter4/>
+        {/* <HookCounter4/> */}
+
+        <HookCounterOne/>
     </div>
   )
 }

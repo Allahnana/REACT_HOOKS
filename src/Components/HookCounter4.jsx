@@ -12,7 +12,7 @@ function HookCounter4() {
 
         <button onClick={addItem}>Add a Number</button>
 
-        <h1>Doings</h1>
+        <h1></h1>
 
         <ul>
             {
