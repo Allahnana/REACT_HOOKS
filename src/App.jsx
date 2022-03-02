@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import ClassCounter from './Components/ClassCounter'
+import ClassCounterOne from './Components/ClassCounterOne'
 import HookCounter from './Components/HookCounter'
 import HookCounter2 from './Components/HookCounter2'
 import HookCounter3 from './Components/HookCounter3'
@@ -22,7 +23,9 @@ function App() {
 
         {/* <HookCounter4/> */}
 
-        <HookCounterOne/>
+        {/* <HookCounterOne/> */}
+
+        <ClassCounterOne/>
     </div>
   )
 }
