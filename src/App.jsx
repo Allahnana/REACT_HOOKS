@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import ClassCounter from './Components/ClassCounter'
 import ClassCounterOne from './Components/ClassCounterOne'
+import DataFetching from './Components/DataFetching'
 import HookCounter from './Components/HookCounter'
 import HookCounter2 from './Components/HookCounter2'
 import HookCounter3 from './Components/HookCounter3'
@@ -34,7 +35,9 @@ function App() {
 
         {/* <ClassCounterOne/> */}
 
-        <IntervalHookCounter/>
+        {/* <IntervalHookCounter/> */}
+
+        <DataFetching/>
     </div>
   )
 }
