@@ -20,7 +20,12 @@ export class ClassCounterOne extends Component {
       componentDidUpdate(prevProps, prevState){
           document.title = `Clicked ${this.state.count} times`
 
-          console.log('Updating Document Title')
+          if(prevState.count != this.state.count){
+            console.log('Updating Document Title')
+
+          }
+
+         
       }
   
   render() {
