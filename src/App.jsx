@@ -8,6 +8,8 @@ import HookCounter3 from './Components/HookCounter3'
 import HookCounter4 from './Components/HookCounter4'
 import HookCounterOne from './Components/HookCounterOne'
 import HookMouse from './Components/HookMouse'
+import IntervalHookCounter from './Components/IntervalHookCounter'
+import MouseContainer from './Components/MouseContainer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,9 +28,13 @@ function App() {
 
         {/* <HookCounterOne/> */}
 
-        <HookMouse/>
+        {/* <HookMouse/> */}
+
+        {/* <MouseContainer/> */}
 
         {/* <ClassCounterOne/> */}
+
+        <IntervalHookCounter/>
     </div>
   )
 }

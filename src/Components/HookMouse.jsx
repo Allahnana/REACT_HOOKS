@@ -9,13 +9,20 @@ function HookMouse() {
         console.log('useEffect Called')
 
         window.addEventListener('mouseover', logMousePosition)
-    } )
+
+        return (() => {
+            console.log('Component unmounting state')
+            window.removeEventListener('mouseover', logMousePosition)
+        })
+    },[] )
 
     const logMousePosition = e =>{
         console.log('Mouse Event')
         setX(e.clientX)
         setY(e.clientY)
     }
+
+   
   return (
     <div>
 
