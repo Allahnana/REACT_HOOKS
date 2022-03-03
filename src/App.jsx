@@ -3,6 +3,7 @@ import './App.css'
 import ClassCounter from './Components/ClassCounter'
 import ClassCounterOne from './Components/ClassCounterOne'
 import CounterOne from './Components/CounterOne'
+import CounterTwo from './Components/CounterTwo'
 import DataFetching from './Components/DataFetching'
 import HookCounter from './Components/HookCounter'
 import HookCounter2 from './Components/HookCounter2'
@@ -40,7 +41,9 @@ function App() {
 
         {/* <DataFetching/> */}
 
-        <CounterOne/>
+        {/* <CounterOne/> */}
+
+        <CounterTwo/>
     </div>
   )
 }
