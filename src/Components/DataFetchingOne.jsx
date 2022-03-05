@@ -20,7 +20,7 @@ function DataFetchingOne() {
         .catch(err =>{
              setLoading(false)
              setPost({})
-             setError('Somthing went wrong')
+             setError('Doings went wrong')
         })
 
 
@@ -29,7 +29,7 @@ function DataFetchingOne() {
     <div>
 
         {
-         loading ?  'Loding........' : post.title
+         loading ?  'Loding, Loading, omo Loadin din din din Loadig........' : post.title
         }
 
         {
