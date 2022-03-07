@@ -10,6 +10,7 @@ import CounterThree from './Components/CounterThree'
 import CounterTwo from './Components/CounterTwo'
 import DataFetching from './Components/DataFetching'
 import DataFetchingOne from './Components/DataFetchingOne'
+import DataFetchingTwo from './Components/DataFetchingTwo'
 import HookCounter from './Components/HookCounter'
 import HookCounter2 from './Components/HookCounter2'
 import HookCounter3 from './Components/HookCounter3'
@@ -87,7 +88,9 @@ function App() {
 
         {/* <ComponentC/> */}
 
-        <DataFetchingOne/>
+        {/* <DataFetchingOne/> */}
+
+        <DataFetchingTwo/>
     </div>
 
 
