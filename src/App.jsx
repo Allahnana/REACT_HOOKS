@@ -19,6 +19,7 @@ import HookCounterOne from './Components/HookCounterOne'
 import HookMouse from './Components/HookMouse'
 import IntervalHookCounter from './Components/IntervalHookCounter'
 import MouseContainer from './Components/MouseContainer'
+import ParentComponent from './Components/ParentComponent'
 
 export const CountContext = React.createContext()
 
@@ -90,7 +91,9 @@ function App() {
 
         {/* <DataFetchingOne/> */}
 
-        <DataFetchingTwo/>
+        {/* <DataFetchingTwo/> */}
+
+        <ParentComponent/>
     </div>
 
 
