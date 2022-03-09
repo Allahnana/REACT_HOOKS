@@ -5,6 +5,7 @@ import ClassCounterOne from './Components/ClassCounterOne'
 import ComponentA from './Components/ComponentA'
 import ComponentB from './Components/ComponentB'
 import ComponentC from './Components/ComponentC'
+import Counter from './Components/Counter'
 import CounterOne from './Components/CounterOne'
 import CounterThree from './Components/CounterThree'
 import CounterTwo from './Components/CounterTwo'
@@ -93,7 +94,9 @@ function App() {
 
         {/* <DataFetchingTwo/> */}
 
-        <ParentComponent/>
+        {/* <ParentComponent/> */}
+
+        <Counter/>
     </div>
 
 
