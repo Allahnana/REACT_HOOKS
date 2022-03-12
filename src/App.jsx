@@ -12,6 +12,9 @@ import CounterTwo from './Components/CounterTwo'
 import DataFetching from './Components/DataFetching'
 import DataFetchingOne from './Components/DataFetchingOne'
 import DataFetchingTwo from './Components/DataFetchingTwo'
+import DocTitleOne from './Components/DocTitleOne'
+import DocTitleTwo from './Components/DocTitleTwo'
+import FocusInput from './Components/FocusInput'
 import HookCounter from './Components/HookCounter'
 import HookCounter2 from './Components/HookCounter2'
 import HookCounter3 from './Components/HookCounter3'
@@ -21,6 +24,9 @@ import HookMouse from './Components/HookMouse'
 import IntervalHookCounter from './Components/IntervalHookCounter'
 import MouseContainer from './Components/MouseContainer'
 import ParentComponent from './Components/ParentComponent'
+import UseCounterOne from './Components/UseCounterOne'
+import UseCounterTwo from './Components/UseCounterTwo'
+import UseForm from './Components/UseForm'
 
 export const CountContext = React.createContext()
 
@@ -96,7 +102,20 @@ function App() {
 
         {/* <ParentComponent/> */}
 
-        <Counter/>
+        {/* <Counter/> */}
+
+        {/* <FocusInput/> */}
+
+        {/* <DocTitleOne/> */}
+
+        {/* <DocTitleTwo/> */}
+
+        {/* <UseCounterOne/> */}
+
+        {/* <UseCounterTwo/> */}
+
+        <UseForm/>
+      
     </div>
 
 
