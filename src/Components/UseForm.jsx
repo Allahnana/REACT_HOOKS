@@ -3,6 +3,8 @@ import useInput from '../Hooks/useInput'
 
 function UseForm() {
 
+
+
     // const [firstName, setFirstName] = useState('')
 
     // const [lastName, setLastName] = useState('')
@@ -16,10 +18,14 @@ function UseForm() {
         alert ( `Hello ${firstName}  ${lastName}`)
         resetFirstName()
         resetLastName()
+
+
     }
 
   return (
     <div>
+
+        <h2>DOINGS FORM</h2>
 
         <form onSubmit={submitHandler}>
             <div>
